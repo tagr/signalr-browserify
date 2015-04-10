@@ -1,0 +1,20 @@
+﻿{
+  "name"          : "signalr-browserify",
+  "description"   : "A demo ASP.NET application with SignalR",
+  "url"           : "",
+  "keywords"      : ["signalr","browserify","gulp","javascript","dotnet"],
+  "author"        : "Andy Merhaut <me@andymerhaut.com>",
+  "dependencies"  : {
+    "jquery"  : ">=2.1.3"
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-uglify": "*",
+    "browserify": "*",
+    "vinyl-source-stream": "*",
+    "vinyl-buffer": "*"
+  },
+  "browser": {
+    "signalr": "./jquery.signalR-2.1.2.js"
+  }
+}
